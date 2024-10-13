@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'youtube_data',
     'corsheaders',
+     'sslserver',
 ]
 
 MIDDLEWARE = [
@@ -136,3 +137,5 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
+GOOGLE_CLIENT_ID = config('GOOGLE_CLIENT_ID')
+GOOGLE_CLIENT_SECRET = config('GOOGLE_CLIENT_SECRET')
