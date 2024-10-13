@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+
+# Django
+db.sqlite3
+/media
+/staticfiles
+# Environnement virtuel
+myvenv/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+build/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Logs
+*.log
