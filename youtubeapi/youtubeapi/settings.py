@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'youtube_data',
     'corsheaders',
      'sslserver',
+    'whitenoise.runserver_nostatic',
 ]
 
 MIDDLEWARE = [
@@ -57,6 +58,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
      'corsheaders.middleware.CorsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'youtubeapi.urls'
